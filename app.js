@@ -134,6 +134,15 @@ else {
     BENEFIT = "Member Reguler (kumpulkan poin untuk naik tier)";
 }
 
+console.log("TIERMEMBER : " + TIERMEMBER);
+console.log("BENEFIT : " + BENEFIT);
+
+alert(
+    "Nama : " + NAMA_PELANGGAN + "\n" +
+    "Total Poin : " + TOTAL_POIN + "\n" +
+    "Tier Memeber : " + TIERMEMBER + "\n" +
+    "Benefit : " + BENEFIT 
+);
 
 // ============================================================
 // AKTIVITAS 5: Function — Membuat Fungsi yang Bisa Dipakai Ulang
